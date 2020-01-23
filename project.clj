@@ -6,8 +6,9 @@
                  [compojure "1.6.1"]
                  [ring/ring-defaults "0.3.2"]
                  [ring/ring "1.8.0"]
-                 [ring/ring-jetty-adapter "1.6.3"]
-                 ]
+                 [ring/ring-jetty-adapter "1.6.3"]]
+
+  :target-path "target/%s/"
   :plugins [[lein-ring "0.12.5"]]
   :ring {:handler hello-world.handler/app}
   :profiles
